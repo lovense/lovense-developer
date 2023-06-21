@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "deviceCode": "xxxxxx",
+    "deviceId": "xxxxxxx",
+    "online": true,
+    "domain": "192-168-1-xx.lovense.club",
+    "httpsPort": 30010,
+    "wssPort": 30110,
+    "appVersion": "1.3.7",
+    "platform": "android",
+    "appType": "remote",
+    "toyList": []
+  }
+}

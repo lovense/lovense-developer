@@ -1,0 +1,138 @@
+:root {
+  --c-brand: #f6418d;
+  --c-brand-light: #f78bbb;
+  --content-width: 3840px;
+}
+
+html.dark {
+  --c-brand: #f6418d;
+  --c-brand-light: #f78bbb;
+}
+
+// ::-internal-direct-focus {
+//   outline-width: 0;
+// }
+
+.img-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: -20px;
+
+  img {
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+.standard-model {
+  // height: 190px;
+  width: 800px;
+  // color: #2c3e50;
+  .title {
+    font-size: 20px;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 26px;
+    padding-top: 20px;
+    width: 100%;
+  }
+  .apply{
+    display: flex;
+  }
+  .platform-list{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    .item{
+      width: 120px;
+      .icon{
+        width: 70px;
+        height: 70px;
+        background-size: cover;
+        margin: 0 auto;
+        margin-bottom: 5px;
+        &-ios{
+          background-image: url(@assets/platform-ios-trans.png);
+        }
+        &-android{
+          background-image: url(@assets/platform-android-trans.png);
+        }
+        &-win{
+          background-image: url(@assets/platform-win-trans.png);
+        }
+      }
+      .text{
+        text-align: center;
+        font-size: 16px;
+        letter-spacing: 0;
+        line-height: 18px;
+      }
+    }
+  }
+  .model-list {
+    background: url("@assets/standard-api-trans.png") no-repeat center -50px;
+    width: 330px;
+    flex-shrink: 0;
+    overflow: hidden;
+    padding: 0px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    .item {
+      text-align: center;
+      font-size: 16px;
+      letter-spacing: 0;
+      line-height: 18px;
+      padding-top: 100px;
+      &:nth-child(1){
+        margin-left: 10px;
+      }
+    }
+    &.model2 {
+      margin-left: 120px;
+      background: url("@assets/standard-js-api-trans.png") no-repeat center -50px;
+    }
+    &.native {
+      width: 500px;
+      justify-content: space-around;
+      background: url("@assets/native-sdk-bg.png") no-repeat center center;
+    }
+  }
+}
+
+// .sidebar-heading {
+//   display: none;
+// }
+
+#app > div > aside > ul > ul > li > a {
+  font-weight: bold;
+}
+
+.theme-container.home-page-class {
+  /* 页面样式 */
+  width: 100% !important;
+  max-width:none ;
+  padding: 0;
+  margin: 0;
+}
+.home {
+  padding:  0 !important;
+  max-width: none !important;
+  margin: 0px !important;
+  display: block;
+  overflow: hidden;
+}
+
+.projectsLibrary-page-class .theme-default-content{
+  padding: 2rem 2.5rem !important;
+}
+.docment-class-page .theme-default-content{
+  padding: 2rem 30% 0px 40px !important;
+}
+.sidebar-items{
+  margin-bottom: 60px !important;
+}
+
+
+
